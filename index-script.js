@@ -26,6 +26,7 @@ function Reload() {
     catch (e) {}
 }
 
+// Responsiveness Feature for iOS users since the reloading function doesn't work on safari.
 if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
     window.onpageshow = function(evt) {
       if (evt.persisted) {
