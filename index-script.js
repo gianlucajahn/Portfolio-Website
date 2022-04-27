@@ -1,13 +1,23 @@
 /// <reference path="./typings/globals/jquery/index.d.ts" />
 
-// Fade out page (entire body) when a link is being clicked
-$('a').click(function(e) {
+// Fade out page (entire body) when button is clicked, with delay to be able to read changing text upon click event
+$('#enter').click(function(e) {
     e.preventDefault();
     newLocation = this.href;
-    $('body').fadeOut(1500, newpage);
+    $('body').delay(1500).fadeOut(1500, newpage);
     });
     function newpage() {
     window.location = newLocation;
+}
+
+// Fade out page (entire body) when a link is being clicked
+$('a').click(function(e) {
+  e.preventDefault();
+  newLocation = this.href;
+  $('body').fadeOut(1500, newpage);
+  });
+  function newpage() {
+  window.location = newLocation;
 }
 
 // Fade in an entire page upon load
