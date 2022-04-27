@@ -5,33 +5,128 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio — Home</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
     <link href="./style.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="page">
+
+
+
         <header>
-            <div class="">
+            <div class="header-left">
+                <button id="logo">Gianluca Jahn™</button>
             </div>
-            
+
+            <div class="header-right">
+                <a href="" id="twitter-link"><img class="twitter" src=""></a>
+                <a href="" id="github-link"><img class="github" src=""></a>
+                <a href="" id="discord-link"><img class="discord" src=""></a>
+                <a href="" id="tinder-link"><img class="tinder" src=""></a>
+                <a href="" id="sources">Sources</a>
+                <a href="" id="contact">Contact</a>
+            </div>
         </header>
+
+
+
         <main>
-    
-    
-        
+            <div class="main-left">
+                <h1 id="name">Gianluca Jahn</h1>
+                <h2 id="position">Frontend Developer</h2>
+                
+                <h3 class="headline" id="headline-aboutme">About Me</h3>
+                <p class="text" id="aboutme">
+                    I'm 23 years old and I'm a Frontend Developer based in Cologne, Germany. My label is currently saying 'Frontend Developer' because I am still
+                    learning and in the midst of becoming a </p><span id="fullstack">Fullstack Developer</span><p class="aboutme" id="aboutme2">. 
+                    I started learning programming around 3 months ago and I am pursuing it full time ever since.
+                </p>
+
+                <h3 class="headline" id="headline-myinterests">My Interests</h3>
+                <p class="text" id="p-myinterests">
+                    I spend most of my free time either with my friends or learning new things. I like to modify videogames to my liking, I play Chess and I love to
+                    learn more about aerospace engineering and artificial intelligence — specifically unsupervised learning.
+                </p>
+            </div>
+
+            <div class="main-right">
+                    <img class="portrait" src="">
+            </div>
         </main>
+
+
+
         <section>
-    
-    
-    
+            <div class="section-left">
+                <h3 class="headline" id="headline-progress">Follow My Progress</h3>
+                <div class="progress">
+                    <img class="progress-icons" id="html" src="">
+                    <img class="progress-icons" id="css" src="">
+                    <img class="progress-icons" id="js" src="">
+                    <img class="progress-icons" id="react" src="">
+                    <img class="progress-icons" id="postgresql" src="">
+                </div>
+
+                <div class="section-left-bottom">
+                    <h3 class="headline" id="headline-repository">My Repository</h3>
+                    <p class="text" id="desc-repository">
+                        The headline above this text provides a direct link to all of my public repositories. Leave a start if you like
+                        some of my works! I will make sure to keep my repository up to date with every new project of mine.
+                    </p>
+                </div>
+            </div>
+
+            <div class="section-right">
+                <h3 class="headline" id="headline-recent">Recent Projects</h3>
+                <div class="section-right-bottom">
+                    <h5 class="h5-recent" id="ppw">Personal Portfolio Website</h5>
+                    <p class="text" id="desc-recent">
+                        I wanted to go out of my way and build something that challenged me a bit more than my earlier projects did.
+                        It wasn't all romantic, though. I faced some problems. See below how I solved one of them. Click onto the Repository
+                        tab to see them all.
+                    </p>
+
+                    <h5 class="h5-recent" id="problem">&#128680; Problem:</h5>
+                    <p class="text" id="problem-recent">
+                        Achieveing a fade-in and fade-out of sub pages was pretty tortuos to do with pure javascript.
+                    </p>
+                    <h5 class="h5-recent" id="solution">&#128161; Solution:</h5>
+                    <p class="text" id="solution-recent">
+                        Learning and using jQuery, specifically it's .click and .ready functions to solve it pretty smoothly and effortlessly.
+                    </p>
+                </div>
+            </div>
         </section>
+
+
+
         <footer>
-    
-    
-    
+            <div class="footer-top">
+                <h3 class="headline" id="headline-stack">My Tech Stack:</h3>
+            </div>
+
+            <div class="footer-bottom">
+                <img class="software" id="stack-html" src="">
+                <img class="software" id="stack-css" src="">
+                <img class="software" id="stack-js" src="">
+                <img class="software" id="stack-jquery" src="">
+                <img class="software" id="stack-figma" src="">
+                <img class="software" id="stack-git" src="">
+                <img class="software" id="stack-devtools" src="">
+                <img class="software" id="stack-npm" src="">
+                <img class="software" id="stack-node" src="">
+                <img class="software" id="stack-github" src="">
+            </div>
         </footer>
+
+
+
     </div>
 </body>
 </html>
