@@ -106,7 +106,7 @@ header {
 /* 'Main' Styling */
 
 main {
-    margin: 0rem 20.5% 3rem 20.5%;
+    margin: 0rem 20.5% 2rem 20.5%;
     display: flex;
     justify-content: space-between;
 }
@@ -244,7 +244,7 @@ main {
 }
 
 .h5-recent {
-    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Poppins', sans-serif;
     padding-top: 0.5rem;
     padding-bottom: 0.35rem;
     font-size: 1rem;
