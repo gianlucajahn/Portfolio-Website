@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+}
+
+@font-face {
+    font-family: 'bukhari';
+    src: url('../typefaces/bukhariscript.ttf');
+}
+
+/* Header Styling */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 20.5% 4.5rem 20.5%;
+    font-size: 1.25rem;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.header-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#logo {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 1.8rem;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.875rem;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-right img {
+    height: 2.9rem;
+    width: auto;
+    padding-top: 0.3rem;
+}
+
+/* 'Main' Styling */
+
+main {
+    margin: 0rem 20.5% 3rem 20.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    display: flex;
+    flex-direction: column;
+    width: 42.5%;
+}
+
+#name {
+    font-family: 'bukhari';
+    font-size: 3.6rem;
+    text-shadow: 0.365rem 0.15rem 0px #fa4d32, 0.685rem 0.295rem 0px #ffb31d, 1rem 0.4395rem 0px #3bbf9c, 1.35rem 0.585rem 0px #007f80, 1.715rem 0.7385rem 0px #00182f, 2.15rem 0.895rem 0.675rem grey;
+}
+
+#position {
+    margin-bottom: 2.5rem;
+    margin-left: 3.65rem;
+    margin-top: -0.3125rem;
+    font-family: 'Radio Canada', sans-serif;
+    font-size: 1.4rem;
+}
+
+#aboutme {
+    margin-bottom: 1.5rem;
+}
+
+#fullstack {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+.headline {
+    font-size: 1.25rem;
+    font-family: 'Radio Canada', sans-serif;
+    margin-bottom: 0.35rem;
+}
+
+.text {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 0.915rem;
+}
+
+#headline-progress {
+    margin-top: 1.75rem;
+}
+
+.progress {
+    display: flex;
+    margin-top: 1.15rem;
+    gap: 0.4rem;
+}
+
+.progress-icons {
+    max-width: 3rem;
+    height: auto;
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 23rem;
+}
+
+.portrait {
+    height: auto;
+    border-radius: 3rem;
+}
+
+#headline-recent {
+    padding-top: 1.2rem;
+    padding-left: 1.25rem;
+}
+
+.main-right-bottom {
+    padding-left: 1.25rem;
+}
+
+.h5-recent {
+    font-family: 'Radio Canada', sans-serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.35rem;
+}
+
+/* Footer Styling */
+
+footer {
+    margin-top: -0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom {
+    margin-top: 1.45rem;
+    display: flex;
+    gap: 1.815rem;
+}
+
+.software {
+    max-width: 3rem;
+    height: auto;
+}
+
+
+
+
+
+
