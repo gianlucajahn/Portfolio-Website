@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     margin: 0.5rem 20.5% 4.5rem 20.5%;
     font-size: 1.25rem;
-    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-left {
@@ -32,7 +32,7 @@ header {
     border: none;
     background: none;
     font-size: 1.8rem;
-    font-family: 'Radio Canada', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-right {
@@ -47,10 +47,35 @@ header {
     color: black;
 }
 
+#sources,
+#contact {
+    transition: 0.4s;
+}
+
+#sources:hover,
+#contact:hover {
+    transform: scale(1.125);
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+#sources:hover {
+    text-decoration-color: #e595ff;
+}
+
+#contact:hover {
+    text-decoration-color: #5dd547;
+}
+
 .header-right img {
     height: 2.9rem;
     width: auto;
     padding-top: 0.3rem;
+    transition: 0.4s;
+}
+
+.header-right img:hover {
+    transform: scale(1.175);
 }
 
 /* 'Main' Styling */
@@ -64,7 +89,7 @@ main {
 .main-left {
     display: flex;
     flex-direction: column;
-    width: 42.5%;
+    max-width: 42.5%;
 }
 
 #name {
@@ -81,6 +106,11 @@ main {
     font-size: 1.4rem;
 }
 
+.debug {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #aboutme {
     margin-bottom: 1.5rem;
 }
@@ -92,9 +122,23 @@ main {
 }
 
 .headline {
+    display: flex;
     font-size: 1.25rem;
-    font-family: 'Radio Canada', sans-serif;
-    margin-bottom: 0.35rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0.55rem;
+    align-self: flex-start;
+    padding: 0 7px;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #fce041 50%
+    );
+}
+
+.headline:before,
+.headline:after {
+    padding: 0;
+    margin: 0;
 }
 
 .text {
@@ -102,8 +146,34 @@ main {
     font-size: 0.915rem;
 }
 
+.main-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
 #headline-progress {
     margin-top: 1.75rem;
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #5df2f6 50%
+    );
+}
+
+#headline-myinterests {
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #ff8772 50%
+    );
+}
+
+#headline-stack {
+    background: linear-gradient(
+        to bottom,
+        transparent 50%,
+        #e595ff 50%
+    );
 }
 
 .progress {
@@ -115,6 +185,11 @@ main {
 .progress-icons {
     max-width: 3rem;
     height: auto;
+    transition: 0.5s;
+}
+
+.progress-icons:hover {
+    transform: scale(1.15);
 }
 
 .main-right {
@@ -131,6 +206,11 @@ main {
 #headline-recent {
     padding-top: 1.2rem;
     padding-left: 1.25rem;
+    background: linear-gradient(
+        to bottom,
+        transparent 70%,
+        #5addbe 30%
+    );
 }
 
 .main-right-bottom {
@@ -141,19 +221,20 @@ main {
     font-family: 'Radio Canada', sans-serif;
     padding-top: 0.5rem;
     padding-bottom: 0.35rem;
+    font-size: 1rem;
 }
 
 /* Footer Styling */
 
 footer {
-    margin-top: -0.5rem;
+    margin-top: -0.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .footer-bottom {
-    margin-top: 1.45rem;
+    margin-top: 1.215rem;
     display: flex;
     gap: 1.815rem;
 }
@@ -161,6 +242,14 @@ footer {
 .software {
     max-width: 3rem;
     height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.software:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
 }
 
 
