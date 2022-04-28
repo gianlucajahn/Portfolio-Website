@@ -35,3 +35,18 @@ if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
         }
     };
 }
+
+// Toggling between making the "most recent project" category hidden and visible, based on clicking the arrow above
+function visibility() {
+    let item = document.getElementById('main-right-bottom');
+    if (item.style.opacity === '1') {
+        item.style.opacity = '0';
+        item.style.transition = '1s opacity';
+    } else {
+        item.style.opacity = '1';
+        item.style.transition = '1s opacity';
+    }
+}
+
+let arrow = document.getElementById('arrow');
+arrow.addEventListener('click', visibility);

@@ -12,6 +12,27 @@ body {
     src: url('../typefaces/bukhariscript.ttf');
 }
 
+@keyframes bobbing {
+    0% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(-0.6rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
 /* Header Styling */ 
 
 header {
@@ -40,9 +61,12 @@ header {
     color: white;
 }
 
-#logo:hover,
-#headline-recent:hover {
+#logo:hover {
     transform: scale(1.08);
+}
+
+#headline-recent:hover {
+    transform: scale(1.05);
 }
 
 #logo:hover {
@@ -127,7 +151,14 @@ main {
 #name {
     font-family: 'bukhari';
     font-size: 3.6rem;
-    text-shadow: 0.365rem 0.15rem 0px #fa4d32, 0.685rem 0.295rem 0px #ffb31d, 1rem 0.4395rem 0px #3bbf9c, 1.35rem 0.585rem 0px #007f80, 1.715rem 0.7385rem 0px #00182f, 2.15rem 0.895rem 0.675rem grey;
+    text-shadow: 0.365rem 0.15rem 0px #fa4d32, 
+                 0.685rem 0.295rem 0px #ffb31d, 
+                 1rem 0.4395rem 0px #3bbf9c, 
+                 1.35rem 0.585rem 0px #007f80, 
+                 1.715rem 0.7385rem 0px #00182f, 
+                 2.15rem 0.895rem 0.675rem grey;
+    animation: bobbing 4s ease-in-out infinite;
+
 }
 
 #position {
@@ -235,6 +266,11 @@ main {
     border-radius: 3rem;
 }
 
+.recent-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 #headline-recent {
     padding-top: 1.2rem;
     cursor: pointer;
@@ -246,8 +282,20 @@ main {
     );
 }
 
-.main-right-bottom {
+#arrow {
+    margin: 1.5rem 0 0 0.65rem;
+    height: 1.375rem;
+    cursor: pointer;
+    transition: 0.1s
+}
+
+#arrow:active {
+    transform: scale(1.085);
+}
+
+#main-right-bottom {
     padding-left: 1.25rem;
+    visibility: visible;
 }
 
 .h5-recent {
