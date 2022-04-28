@@ -17,9 +17,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0.5rem 20.5% 4.5rem 20.5%;
+    padding: 0.75rem 20.5% 0.75rem 20.5%;
+    margin-bottom: 4.5rem;
     font-size: 1.25rem;
     font-family: 'Poppins', sans-serif;
+    background-color: #181818;
 }
 
 .header-left {
@@ -33,6 +35,19 @@ header {
     background: none;
     font-size: 1.8rem;
     font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+    color: white;
+}
+
+#logo:hover,
+#headline-recent:hover {
+    transform: scale(1.08);
+}
+
+#logo:active,
+#headline-recent:active {
+    transform: scale(0.975);
 }
 
 .header-right {
@@ -49,6 +64,7 @@ header {
 
 #sources,
 #contact {
+    color: white;
     transition: 0.4s;
 }
 
@@ -68,10 +84,19 @@ header {
 }
 
 .header-right img {
-    height: 2.9rem;
+    border-radius: 0.4rem;
+    height: 2.2rem;
     width: auto;
-    padding-top: 0.3rem;
+    margin-top: 0.365rem;
     transition: 0.4s;
+    box-shadow:
+    0 0 2px 1px #363636,  
+    0 0 3px 2px #2c2c2c, 
+    0 0 5px 4px #282828; 
+}
+
+.tinder {
+    margin-right: 0.65rem;
 }
 
 .header-right img:hover {
@@ -205,6 +230,7 @@ main {
 
 #headline-recent {
     padding-top: 1.2rem;
+    cursor: pointer;
     padding-left: 1.25rem;
     background: linear-gradient(
         to bottom,
