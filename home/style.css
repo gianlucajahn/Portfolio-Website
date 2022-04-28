@@ -45,6 +45,13 @@ header {
     transform: scale(1.08);
 }
 
+#logo:hover {
+    background: linear-gradient(to right, #fa4d32, #ffb31d, #3bbf9c, #007f80, #00182f);
+    background-size: 100% 5px;
+    background-repeat: no-repeat;
+    background-position: 90% 90%;
+}
+
 #logo:active,
 #headline-recent:active {
     transform: scale(0.975);
