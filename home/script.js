@@ -1,17 +1,21 @@
+/// Referencing jQuery's typing path to use jQuery intelliSense
 /// <reference path="../typings/globals/jquery/index.d.ts" />
 
-// Fade out page (entire body) when a link is being clicked
+// Fade out body when a link is being clicked
 $('a').click(function(e) {
   e.preventDefault();
   newLocation = this.href;
+  // Fade Out
   $('body').fadeOut(1500, newpage);
   });
+  // Open href attribute of target <a> in same window
   function newpage() {
   window.location = newLocation;
 }
 
 // Fade in an entire page upon load
 $(document).ready(function(){
+    // Change the body's display value to none, then fade it in
     $('body').css('display', 'none');
     $('body').fadeIn(1250);
 }); 
@@ -26,7 +30,7 @@ function Reload() {
     catch (e) {}
 }
 
-// Responsiveness Feature for iOS users since the reloading function doesn't work on safari.
+// Responsiveness Feature for iOS users since the reloading function doesn't work on safari
 if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
     window.onpageshow = function(evt) {
       if (evt.persisted) {
@@ -51,54 +55,24 @@ function visibility() {
 let arrow = document.getElementById('arrow');
 arrow.addEventListener('click', visibility);
 
-// Add Sounds on Clicks [blob sound]
-$('button').click(function(e) {
+// Add Sounds on Clicks
+$('button, img, a, h3').click(function(e) {
     let clicked = e.target;
+    // Check for elements with the 'blob' class
     if (clicked.classList.contains('blob')) {
         let audio = new Audio('../audiofiles/blob.mp3');
         audio.play();
-    } else return
-});
-
-$('img').click(function(e) {
-    let clicked = e.target;
-    console.log(clicked);
-    if (clicked.classList.contains('blob')) {
-        let audio = new Audio('../audiofiles/blob.mp3');
-        audio.play();
-        audio.addEventListener('ended', function () {
-            window.location = this.parentNode.href;
-        });
-    } else return
-});
-
-// Add Sounds on Clicks [stick sound]
-$('a').click(function(e) {
-    let clicked = e.target;
-    if (clicked.classList.contains('stick')) {
+    // Check for elements with the 'stick' class
+    } else if (clicked.classList.contains('stick')) {
         let audio = new Audio('../audiofiles/stick.mp3');
         audio.play();
         audio.addEventListener('ended', function () {
-            window.location = './home.html'
+            if (clicked.parentNode.href) {
+                window.location = clicked.parentNode.href
+            } else window.location = clicked.href;
         });
-    } else return
-});
-
-$('h3').click(function(e) {
-    let clicked = e.target;
-    if (clicked.classList.contains('stick')) {
-        let audio = new Audio('../audiofiles/stick.mp3');
-        audio.play();
-        audio.addEventListener('ended', function () {
-            window.location = this.href;
-        });
-    } else return
-});
-
-// Add Sounds on Clicks [click sound]
-$('img').click(function(e) {
-    let clicked = e.target;
-    if (clicked.classList.contains('click')) {
+    // Check for elements with the 'click' class
+    } else if (clicked.classList.contains('click')) {
         let audio = new Audio('../audiofiles/click.mp3');
         audio.play();
     } else return

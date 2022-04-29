@@ -272,6 +272,11 @@ main {
     justify-content: flex-start;
 }
 
+.main-right a {
+    text-decoration: none;
+    color: black;
+}
+
 #headline-recent {
     padding-top: 1.2rem;
     cursor: pointer;
@@ -334,7 +339,7 @@ footer {
     -webkit-filter: grayscale(0);
 }
 
-
+#foobar { display: none }
 
 
 
