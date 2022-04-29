@@ -50,3 +50,56 @@ function visibility() {
 
 let arrow = document.getElementById('arrow');
 arrow.addEventListener('click', visibility);
+
+// Add Sounds on Clicks [blob sound]
+$('button').click(function(e) {
+    let clicked = e.target;
+    if (clicked.classList.contains('blob')) {
+        let audio = new Audio('../audiofiles/blob.mp3');
+        audio.play();
+    } else return
+});
+
+$('img').click(function(e) {
+    let clicked = e.target;
+    console.log(clicked);
+    if (clicked.classList.contains('blob')) {
+        let audio = new Audio('../audiofiles/blob.mp3');
+        audio.play();
+        audio.addEventListener('ended', function () {
+            window.location = this.parentNode.href;
+        });
+    } else return
+});
+
+// Add Sounds on Clicks [stick sound]
+$('a').click(function(e) {
+    let clicked = e.target;
+    if (clicked.classList.contains('stick')) {
+        let audio = new Audio('../audiofiles/stick.mp3');
+        audio.play();
+        audio.addEventListener('ended', function () {
+            window.location = './home.html'
+        });
+    } else return
+});
+
+$('h3').click(function(e) {
+    let clicked = e.target;
+    if (clicked.classList.contains('stick')) {
+        let audio = new Audio('../audiofiles/stick.mp3');
+        audio.play();
+        audio.addEventListener('ended', function () {
+            window.location = this.href;
+        });
+    } else return
+});
+
+// Add Sounds on Clicks [click sound]
+$('img').click(function(e) {
+    let clicked = e.target;
+    if (clicked.classList.contains('click')) {
+        let audio = new Audio('../audiofiles/click.mp3');
+        audio.play();
+    } else return
+});

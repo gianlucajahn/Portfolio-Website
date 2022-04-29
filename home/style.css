@@ -110,12 +110,22 @@ header {
     height: 2.2rem;
     width: auto;
     margin-top: 0.365rem;
-    transition: 0.4s;
+    transition: 0.3s;
     box-shadow:
     0 0 2px 1px #363636,  
     0 0 3px 2px #2c2c2c, 
     0 0 5px 4px #282828; 
 }
+
+.header-right a:active {
+    transform: scale(0.85);
+}
+
+#sources:active,
+#contact:active {
+    transform: scale(0.85);
+}
+
 
 .tinder {
     margin-right: 0.65rem;
