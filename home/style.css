@@ -29,6 +29,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    gap: 3rem;
     padding: 0.75rem 20.5% 0.75rem 20.5%;
     margin-bottom: 4.5rem;
     font-size: 1.25rem;
@@ -107,8 +108,8 @@ header {
 
 .header-right img {
     border-radius: 0.4rem;
-    height: 2.2rem;
-    width: auto;
+    max-height: 2.2rem;
+    max-width: auto;
     margin-top: 0.365rem;
     transition: 0.3s;
     box-shadow:
@@ -138,6 +139,7 @@ header {
 /* 'Main' Styling */
 
 main {
+    gap: 2rem;
     margin: 0rem 20.5% 2rem 20.5%;
     display: flex;
     justify-content: space-between;
@@ -259,11 +261,13 @@ main {
 .main-right {
     display: flex;
     flex-direction: column;
+    height: auto;
     max-width: 23rem;
 }
 
 .portrait {
     height: auto;
+    max-width: 100%;
     border-radius: 3rem;
 }
 
@@ -318,12 +322,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0 2em;
 }
 
 .footer-bottom {
     margin-top: 1.215rem;
     display: flex;
     gap: 1.815rem;
+    flex-wrap: wrap;
 }
 
 .software {
@@ -339,8 +345,290 @@ footer {
     -webkit-filter: grayscale(0);
 }
 
-#foobar { display: none }
+/* Media Queries */
 
+@media only screen and (min-width: 1300px) and (max-width: 1423px) {
 
+    #name {
+        font-size: 3rem;
+    }
+}
 
+@media only screen and (min-width: 1090px) and (max-width: 1300px) {
 
+    header {
+        padding-left: 11.5%;
+        padding-right: 11.5%;
+    }
+    
+    main {
+      margin-left: 11.5%;
+      margin-right: 11.5%;
+      margin-bottom: 4rem;
+    }
+
+    footer {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1090px) {
+
+    header {
+      padding-left: 11.5%;
+      padding-right: 11.5%;
+    }
+    
+    main {
+      margin-left: 11.5%;
+      margin-right: 11.5%;
+      margin-bottom: 4rem;
+    }
+
+    footer {
+        margin-bottom: 3rem;
+    }
+
+    .main-right img {
+        max-width: 75%;
+        align-self: center;
+    }
+
+    #name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 825px) and (max-width: 1000px) {
+
+    header {
+      padding-left: 11.5%;
+      padding-right: 11.5%;
+    }
+    
+    .header-right {
+        gap: 1.15rem;
+    }
+
+    main {
+      gap: 3rem;
+      margin-left: 11.5%;
+      margin-right: 11.5%;
+      margin-bottom: 4rem;
+    }
+
+    footer {
+        margin-bottom: 3rem;
+    }
+
+    .main-right img {
+        max-width: 75%;
+        align-self: center;
+    }
+
+    #name {
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 825px) {
+
+    header {
+      padding-left: 6.5%;
+      padding-right: 6.5%;
+    }
+
+    .header-right {
+        gap: 1rem;
+    }
+    
+    main {
+      gap: 3rem;
+      margin-left: 6.5%;
+      margin-right: 6.5%;
+      margin-bottom: 4rem;
+    }
+
+    footer {
+        margin-bottom: 3rem;
+    }
+
+    .main-right img {
+        max-width: 70%;
+        align-self: center;
+    }
+
+    #name {
+        font-size: 2rem;
+    }
+
+    #position {
+       font-size: 0.95rem; 
+       padding-top: 0.3rem;
+    }
+
+    .headline {
+        font-size: 1.00rem;
+    }
+
+    footer {
+        margin-left: 6.5%;
+        margin-right: 6.5%
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 16px;
+      }
+
+    #logo {
+        font-size: 16px;
+    }
+
+    .header-right img {
+        max-height: 1.9rem;
+        max-width: auto;
+    }
+}
+
+@media only screen and (min-width: 10px) and (max-width: 650px) {
+
+    header {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 16px;
+      }
+
+    #logo {
+        font-size: 16px;
+    }
+
+    .header-right {
+        gap: 0.65rem;
+    }
+
+    .header-right img {
+        max-height: 1.9rem;
+        max-width: auto;
+    }
+
+    main {
+        gap: 4rem;
+        margin-left: 14.5%;
+        margin-right: 14.5%;
+        margin-bottom: 5rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #position {
+        padding-right: 2.65rem;
+    }
+
+    .progress {
+        padding-top: 1.5rem;
+        margin: auto;
+    }
+
+    footer {
+        margin-bottom: 3rem;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap: 1.5rem;
+    }
+
+    .main-right img {
+        max-width: 75%;
+        align-self: center;
+    }
+
+    .main-left,
+    .main-right {
+        max-width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .headline {
+        align-self: center;
+        margin: auto;
+    }
+
+    p {
+        padding-top: 0.7rem;
+        margin: auto;
+    }
+
+    #arrow {
+        margin-bottom: 0.85rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+
+    header {
+        font-size: 12px;
+    }
+
+    #logo {
+        font-size: 12px;
+    }
+
+    .header-right img {
+        max-height: 1.6rem;
+        max-width: auto;
+    }
+
+    #name {
+        font-size: 2.5rem;
+    }
+
+    #position {
+        font-size: 1rem;
+        padding-top: 0.35rem;
+    }
+
+    #headline-recent {
+        font-size: 1.025rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 420px) {
+
+    header {
+        gap: 0.85rem;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 380px) {
+
+    header {
+        font-size: 10px;
+    }
+
+    .header-right img {
+        max-height: 1.2rem;
+        max-width: auto;
+    }
+
+    #logo {
+        font-size: 10px;
+    }
+
+    #name {
+        font-size: 2.1rem;
+        margin-right: 0.6rem;
+    }
+
+    #position {
+        font-size: 0.8rem;
+    }
+
+    #headline-recent {
+        font-size: 0.75rem;
+    }
+}
