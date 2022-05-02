@@ -20,22 +20,45 @@ $('a').click(function(e) {
       $('body').fadeIn(1250);
   }); 
   
-  // Reload page on EVERY visit, avoiding faded out pages upon using the "back" arrow function in the client's browser
+// Reload page on EVERY visit, avoiding faded out pages upon using the "back" arrow function in the client's browser
   function Reload() {
-      try {
-        var headElement = document.getElementsByTagName("head")[0];
-      if (headElement && headElement.innerHTML)
-        headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
-      }
-      catch (e) {}
-  }
+    try {
+      var headElement = document.getElementsByTagName("head")[0];
+    if (headElement && headElement.innerHTML)
+      headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
+    }
+    catch (e) {}
+}
   
-  // Responsiveness Feature for iOS users since the reloading function doesn't work on safari
+// Responsiveness Feature for iOS users since the reloading function doesn't work on safari
   if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
-      window.onpageshow = function(evt) {
-        if (evt.persisted) {
-          document.body.style.display = "none";
-          location.reload();
-          }
-      };
-  }
+    window.onpageshow = function(evt) {
+    if (evt.persisted) {
+        document.body.style.display = "none";
+        location.reload();
+        }
+    };
+}
+
+// Add Sounds on Clicks
+$('button, img, a, h3').click(function(e) {
+    let clicked = e.target;
+    // Check for elements with the 'blob' class
+    if (clicked.classList.contains('blob')) {
+        let audio = new Audio('../audiofiles/blob.mp3');
+        audio.play();
+    // Check for elements with the 'stick' class
+    } else if (clicked.classList.contains('stick')) {
+        let audio = new Audio('../audiofiles/stick.mp3');
+        audio.play();
+        audio.addEventListener('ended', function () {
+            if (clicked.parentNode.href) {
+                window.location = clicked.parentNode.href
+            } else window.location = clicked.href;
+        });
+    // Check for elements with the 'click' class
+    } else if (clicked.classList.contains('click')) {
+        let audio = new Audio('../audiofiles/click.mp3');
+        audio.play();
+    } else return
+});
