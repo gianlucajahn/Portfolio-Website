@@ -40,7 +40,7 @@ if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
     };
 }
 
-// Toggling between making the "most recent project" category hidden and visible, based on clicking the arrow above
+// Toggling between making the "most recent project" category hidden and visible
 function visibility() {
     let item = document.getElementById('main-right-bottom');
     if (item.style.opacity === '1') {
@@ -52,6 +52,7 @@ function visibility() {
     }
 }
 
+// Defining the event that has to take place to toggle between making the "most recent project" category hidden or visible
 let arrow = document.getElementById('arrow');
 arrow.addEventListener('click', visibility);
 
