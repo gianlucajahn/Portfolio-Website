@@ -34,7 +34,7 @@ Here's some Showcase of the current [as of 03.05.2022] commit. You can also chec
  I feel like my portfolio needs one additionally to my GitHub! Feel free to take a look in here every once in a while or use the "Watch" feature on GitHub.
   
  ### 🌱 Sources
-You can find all Sources below,  on the web page and the source code or all of those options!
+You can find all Sources below, on the web page and the source code!
 
 [Twitter Logo 3D Illustration](https://iconscout.com/3d/twitter-2950144) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
