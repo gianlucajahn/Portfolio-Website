@@ -255,7 +255,7 @@ a {
       }
 
       #flex {
-          font-size: 1.4rem;
+          font-size: 1.2rem;
           max-width: 65%;
       }
 
@@ -267,8 +267,8 @@ a {
   @media only screen and (min-width: 650px) and (max-width: 825px) {
   
       header {
-        padding-left: 6.5%;
-        padding-right: 6.5%;
+        padding-left: 9.5%;
+        padding-right: 9.5%;
       }
   
       .header-right {
@@ -277,25 +277,26 @@ a {
   
       .contact-bottom,
       .contact-top {
-        padding-left: 6.5%;
-        padding-right: 6.5%;
+        padding-left: 9.5%;
+        padding-right: 9.5%;
       }
 
       #flex {
-          font-size: 1.2rem;
-          max-width: 47.5%;
-      }
+        font-size: 1rem;
+        max-width: 60%;
+    }
 
-      .contact-bottom {
-          gap: 1rem;
-      }
+    .contact-bottom {
+        gap: 0.5rem;
+    }
+
   }
   
   @media only screen and (min-width: 650px) and (max-width: 750px) {
   
       header {
-          padding-left: 5%;
-          padding-right: 5%;
+          padding-left: 7%;
+          padding-right: 7%;
           font-size: 16px;
         }
   
@@ -311,16 +312,34 @@ a {
         
       .contact-bottom,
       .contact-top {
-        padding-left: 6.5%;
-        padding-right: 6.5%;
+        padding-left: 7%;
+        padding-right: 7%;
       }
+
+      #flex {
+        font-size: 1.5rem;
+        max-width: 72.5%;
+    }
+
+    .contact-bottom {
+        flex-direction: column;
+    }
+
+    .contact-left {
+        padding-top: 3rem;
+        padding-left: 10.5%;
+    }
+
+    .contact-bottom {
+        gap: 1rem;
+    }
   }
   
   @media only screen and (min-width: 10px) and (max-width: 650px) {
   
       header {
-          padding-left: 5%;
-          padding-right: 5%;
+          padding-left: 7%;
+          padding-right: 7%;
           font-size: 16px;
         }
   
@@ -354,6 +373,24 @@ a {
       .list ul li {
           margin-bottom: 2rem;
       }
+
+      #flex {
+        font-size: 1.5rem;
+        max-width: 72.5%;
+    }
+
+    .contact-bottom {
+        flex-direction: column;
+    }
+
+    .contact-left {
+        padding-top: 3rem;
+        padding-left: 10.5%;
+    }
+
+    .contact-bottom {
+        gap: 1rem;
+    }
   }
   
   @media only screen and (min-width: 0px) and (max-width: 500px) {
@@ -378,9 +415,15 @@ a {
       .contact-bottom .headline {
           font-size: 1rem;
       }
+
+      #flex {
+        font-size: 1.35rem;
+        max-width: 72.5%;
+    }
+
   }
   
-  @media only screen and (min-width: 0px) and (max-width: 420px) {
+  @media only screen and (min-width: 0px) and (max-width: 425px) {
   
       header {
           gap: 0.85rem;
@@ -393,6 +436,11 @@ a {
       .top-2 {
           max-width: 90%;
       }
+
+      #flex {
+        font-size: 1.4rem;
+        max-width: 80%;
+    }
   }
   
   @media only screen and (min-width: 0px) and (max-width: 380px) {
