@@ -41,7 +41,7 @@ $('a').click(function(e) {
 }
 
 // Add Sounds on Clicks
-$('button, img, a, h3').click(function(e) {
+$('button, img, a, h3, li, ul').click(function(e) {
     let clicked = e.target;
     // Check for elements with the 'blob' class
     if (clicked.classList.contains('blob')) {
