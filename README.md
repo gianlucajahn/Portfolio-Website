@@ -1,4 +1,4 @@
-# Portfolio Website
+# Gianluca Jahn: Portfolio Website
 After learning some stuff now I thought why not create a portfolio website? 
 I didn't want to solely base it on what I learned so far though, because I planned on using the portfolio website for some time now. I will redo it from scratch
 as soon as I feel comfortable that I can build my best portfolio website that doesn't ever need another rework. Since that's going to take a couple months, I tried to get a website going that I would be somewhat pleased with, for the time being.
