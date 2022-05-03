@@ -4,7 +4,8 @@ I didn't want to solely base it on what I learned so far though, because I plann
 as soon as I feel comfortable that I can build my best portfolio website that doesn't ever need another rework. Since that's going to take a couple months, I tried to get a website going that I would be somewhat pleased with, for the time being.
 
 ## 🎥 Live Preview
-Still in the works! Should be online after 04.05.2022
+Still in the works! Should be online after 04.05.2022. 
+➥ Click [here](https://gianlucajahn.github.io/Portfolio-Website) to view it.
 
 ## 👨‍🔬 Features
 I am quite a perfectionist when it comes to UI / UX design and it seemed like jQuery could solve the features that I wanted to implement more efficiently, so I started 
