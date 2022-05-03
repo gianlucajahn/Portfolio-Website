@@ -36,22 +36,22 @@ Here's some Showcase of the current [as of 03.05.2022] commit. You can also chec
  ### 🌱 Sources
 You can find all Sources below, on the web page and the source code!
 
-[Twitter Logo 3D Illustration](https://iconscout.com/3d/twitter-2950144) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Twitter Logo 3D Illustration](https://iconscout.com/3d/twitter-2950144) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Spotify Logo 3D Illustration](https://iconscout.com/3ds/spotify) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Spotify Logo 3D Illustration](https://iconscout.com/3ds/spotify) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Discord Logo 3D Illustration](https://iconscout.com/3d/discord-2950140) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Discord Logo 3D Illustration](https://iconscout.com/3d/discord-2950140) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Tinder Logo 3D Illustration](https://iconscout.com/3d/tinder-2950146) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Tinder Logo 3D Illustration](https://iconscout.com/3d/tinder-2950146) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Gmail Logo 3D Illustration](https://iconscout.com/3d/gmail-2950163) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Gmail Logo 3D Illustration](https://iconscout.com/3d/gmail-2950163) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Location 3D Illustration](https://iconscout.com/3ds/location) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Location 3D Illustration](https://iconscout.com/3ds/location) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Sign Up 3D Illustration](https://iconscout.com/3ds/sign-up) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Sign Up 3D Illustration](https://iconscout.com/3ds/sign-up) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
   
-[Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
+➥  [Next icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/next)
   
-[Ui icons created by smashingstocks - Flaticon](https://www.flaticon.com/free-icons/ui)
+➥  [Ui icons created by smashingstocks - Flaticon](https://www.flaticon.com/free-icons/ui)
   
-[Ketchup Bottles 3D Illustration](https://iconscout.com/3ds/ketchup-bottles) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
+➥  [Ketchup Bottles 3D Illustration](https://iconscout.com/3ds/ketchup-bottles) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
