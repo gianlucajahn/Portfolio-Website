@@ -31,10 +31,10 @@ Here's some Showcase of the current [as of 03.05.2022] commit. You can also chec
   
  ### 👷 Work in Progress
  This is still a work in progress. I will update this with a dedicated project's subpage as soon as 
- I feel like my portfolio needs one additionally to my GitHub!
+ I feel like my portfolio needs one additionally to my GitHub! Feel free to take a look in here every once in a while or use the "Watch" feature on GitHub.
   
  ### 🌱 Sources
-You can find all Sources[^1][^2][^3][^4][^5][^6][^7][^8][^9][^10] in the footer.
+You can find all Sources[^1][^2][^3][^4][^5] and [^6][^7][^8][^9][^10] in the footer.
   
 [^1]: [Twitter Logo 3D Illustration](https://iconscout.com/3d/twitter-2950144) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
 [^2]: [Spotify Logo 3D Illustration](https://iconscout.com/3ds/spotify) by [Iconscout Score](https://iconscout.com/contributors/iconscout) on [Iconscout](https://iconscout.com)
