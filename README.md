@@ -5,6 +5,7 @@ as soon as I feel comfortable that I can build my best portfolio website that do
 
 ## 🎥 Live Preview
 Still in the works! Should be online after 04.05.2022. 
+
 ➥ Click [here](https://gianlucajahn.github.io/Portfolio-Website) to view it.
 
 ## 👨‍🔬 Features
